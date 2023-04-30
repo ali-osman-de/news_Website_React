@@ -14,8 +14,8 @@ function App() {
       )
         .then((response) => response.json())
         .then((json) => {
-          console.log(json);
-          setData(json["articles"]);
+          // console.log(json);
+          setData(json);
 
           setTimeout(() => {
             setcompleted(true);
